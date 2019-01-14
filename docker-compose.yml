@@ -1,0 +1,8 @@
+version: '3.3'
+
+services:
+  aria2:
+    image: aria2_web
+    ports:
+      - "4010:80"
+    restart: always

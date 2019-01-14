@@ -1,0 +1,23 @@
+CACHE MANIFEST
+
+CACHE:
+css/aria-ng-2aa6affdda.min.css
+css/bootstrap-3.3.7.min.css
+css/plugins-a7090b9582.min.css
+js/angular-packages-1.6.5.min.js
+js/aria-ng-b547c0aed9.min.js
+js/bootstrap-3.3.7.min.js
+js/echarts-common-3.7.1.min.js
+js/jquery-2.2.4.min.js
+js/moment-with-locales-2.18.1.min.js
+js/plugins-196768d023.min.js
+fonts/fontawesome-webfont.woff2
+index.html
+
+NETWORK:
+*
+
+SETTINGS:
+prefer-online
+
+# hash: 74b06be63570b360c096d3ecf7d55ecc1bff95c1ad362aa09ba9921228fa05da
