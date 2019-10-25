@@ -1,8 +1,25 @@
 version: '3.3'
 
 services:
-  aria2:
-    image: aria2_web
+  aria2-back:
+    image: aria2-backend:latest
+    ports:
+      - "6800:6800"
+    volumes:
+      - "./downloads:/downloads"
+    restart: always
+    networks:
+      - aria2-net
+
+  aria2-front:
+    image: aria2-frontend:latest
     ports:
       - "4010:80"
     restart: always
+    depends_on:
+      - aria2-back
+    networks:
+      - aria2-net
+
+networks:
+  aria2-net:
