@@ -1,6 +1,9 @@
-### 1. build前端镜像
+### 1. build前端镜像(两个镜像都可以)
 ```
 cd aria2_frontend
+或
+cd aria2_frontend_all_in_one
+
 docker build -t aria2-frontend .
 ```
 ### 2. build后端镜像
